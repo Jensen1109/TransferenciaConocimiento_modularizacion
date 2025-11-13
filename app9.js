@@ -1,9 +1,14 @@
-import { par_impar,positivo_negativo, es_primo} from "./modulos/par_impar_postivo_negativo_primo.js"
+// Importamos las funciones par_impar, positivo_negativo y es_primo desde el archivo par_impar_postivo_negativo_primo.js ubicado en la carpeta modulos
+import { par_impar, positivo_negativo, es_primo } from "./modulos/par_impar_postivo_negativo_primo.js";
 
-let num = Number(prompt("Digite su numero: "))
+// Pedimos al usuario que digite un numero y lo convertimos a tipo numerico con Number()
+let num = Number(prompt("Digite su numero:"));
 
-console.log(par_impar(num))
+// Mostramos en consola si el numero es par o impar
+console.log(par_impar(num));
 
-console.log(positivo_negativo(num))
+// Mostramos en consola si el numero es positivo, negativo o cero
+console.log(positivo_negativo(num));
 
-console.log(es_primo(num))
+// Mostramos en consola si el numero es primo o no
+console.log(es_primo(num));
